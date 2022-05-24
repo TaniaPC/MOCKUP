@@ -1,0 +1,73 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-image: url(../MOCKUP/imagenes/Disney.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -300pt;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: rgb(244, 233, 237);
+  font-size: 72pt;
+  font-family: cursive;
+}
+
+main {
+  background-color:rgb(234, 234, 224);
+  margin-top: 40pt;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  height: 250pt;
+}
+
+section {
+  width: 30%;
+  height: auto;
+}
+
+h2 {
+  color: rgb(80, 76, 76);
+  font-size: 20pt;
+}
+
+p {
+  color: rgb(12, 12, 12);
+  font-size: 12pt;
+  line-height: 20pt;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: 12pt;
+}
+
+input {
+  width: 100%;
+  border: none;
+  font-size: 12pt;
+}
+
+.message {
+  height: 80pt;
+}
+
+button {
+  border: none;
+  background-color: rgb(226, 229, 45);
+  color: rgb(74, 135, 93);
+  font-size: 16pt;
+  height: auto;
+  width: auto;
+}
